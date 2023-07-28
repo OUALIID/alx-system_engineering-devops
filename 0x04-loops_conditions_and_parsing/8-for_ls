@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# Displays the content of the current directory in the form of a list where only the name part is shown after the first hyphen.
 
 
 for file in *;
 do
-    if [ -f "$file" ] && [[ "$file" != .* ]];
+    if [[ -f "$file" && "$file" != *. ]];
     then
-        result=$(file#*-)
+        result=${file#*-}
         echo "$result"
     fi
 done
