@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# A Bash script that gives you information about the school file.
+# `-e` The -e flag is used to test if the file or directory exists.
+# `-s` The -s flag is used to test if the file is not empty.
+# `-f` The `-f` flag is used to test if the file is a regular file.
+
+if [ -e "school" ];
+then
+    echo "school file exists"
+    if [ -s "school" ];
+    then
+        echo "school file is empty"
+    else
+        echo "school file is not empty"
+    fi
+    if [ -f "school" ];
+    then
+        echo "school is a regular file"
+    else
+        :
+    fi
+else
+    echo "school file does not exist"
+fi
