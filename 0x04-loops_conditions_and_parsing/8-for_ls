@@ -6,7 +6,7 @@ for file in *;
 do
     if [ -f "$file" ] && [[ "$file" != .* ]];
     then
-        name=${file#*-}
-        echo "$name"
+        result=$(file#*-)
+        echo "$result"
     fi
 done
