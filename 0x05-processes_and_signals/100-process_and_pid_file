@@ -6,7 +6,6 @@
 # Displays Y U no love me?! when receiving a SIGINT signal.
 # Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal.
 
-
 input() {
   echo "Y U no love me?!"
   rm -r -f /var/run/myscript.pid
