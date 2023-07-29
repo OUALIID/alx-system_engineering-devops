@@ -6,31 +6,16 @@
 # Displays Y U no love me?! when receiving a SIGINT signal.
 # Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal.
 
-on_interrupt() {
+
+input() {
   echo "Y U no love me?!"
-  rm -f /var/run/myscript.pid
+  rm -r -f /var/run/myscript.pid
   exit 1
 }
-
-# Function to handle SIGQUIT signal
-on_sigquit() {
-  echo "Executing the 7-highlander script and killing it with SIGQUIT or SIGTERM signal."
-  rm -f /var/run/myscript.pid
-  exit 1
-}
-
-# Set signal handlers
-trap on_interrupt SIGINT SIGTERM
-trap on_sigquit SIGQUIT
-
-# Create the PID file
-echo $$ > /var/run/myscript.pid
-
-# Kill the process 7-highlander if it's running
-pkill -f "7-highlander"
-
-# Loop to display "To infinity and beyond" indefinitely
-while true; do
+trap input  SIGTERM
+echo "$$" > /var/run/myscript.pid
+while true;
+do
   echo "To infinity and beyond"
   sleep 2
 done
