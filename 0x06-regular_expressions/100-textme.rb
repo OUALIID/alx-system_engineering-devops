@@ -10,6 +10,8 @@ for each pattern as a single concatenated string without any separator.
 but it does so non-greedily, meaning it captures as few characters as possible to make the whole pattern match.
 This allows the capture group to match everything inside the square brackets.
 
+The comma (,) inside the join method serves as a separator for the elements being joined together into a single string.
+
                         ==> puts ARGV[0].scan(/\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/).join <==
 The `join` method combines all the elements of the array(result of `scan`) into a single string, with no separator between them.
 """
