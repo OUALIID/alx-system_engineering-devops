@@ -12,4 +12,4 @@ then prints the matched substrings as an array.
                         ==> puts ARGV[0].scan(/^\d{10}/).join <==
 The `join` method combines all the elements of the array(result of `scan`) into a single string, with no separator between them.
 """
-puts ARGV[0].scan(/^\d{10}/).join
+puts ARGV[0].scan(^\d{10})
