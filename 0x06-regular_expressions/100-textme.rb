@@ -13,4 +13,4 @@ This allows the capture group to match everything inside the square brackets.
                         ==> puts ARGV[0].scan(/\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/).join <==
 The `join` method combines all the elements of the array(result of `scan`) into a single string, with no separator between them.
 """
-puts ARGV[0].scan(/\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/).join
+puts ARGV[0].scan(/\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/).join(",")
