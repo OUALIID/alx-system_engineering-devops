@@ -5,12 +5,13 @@ then prints the matched substrings as an array.
 
 `^`: The caret symbol '^' is an anchor that denotes the start of a line. It means the pattern should start at the beginning of the string.
 
-`\d`: The backslash followed by 'd' represents a digit character in regular expressions, matching any numeric digit (0-9).
+`\d`: The `\d` represents a digit character in regular expressions, matching any numeric digit (0-9).
 
-`{10}`: The curly braces '{}' denote a quantifier, and in this case, it means the preceding pattern (the digit '\d') should appear exactly 10 times.
+`{10}`: The curly braces '{}' denote a quantifier, and in this case, it means the preceding pattern (the digit `\d`) should appear exactly 10 times.
 
+`$`: The dollar sign '$' is an anchor that denotes the end of a line. It means the pattern should end at the end of the string.
 
-                        ==> puts ARGV[0].scan(/^\d{10}/).join <==
+                        ==> puts ARGV[0].scan(/^\d{10}$/).join <==
 The `join` method combines all the elements of the array(result of `scan`) into a single string, with no separator between them.
 """
 #puts ARGV[0].scan(/^\d{10}/).join  ==>  This code works, but the validator did not accept it.
