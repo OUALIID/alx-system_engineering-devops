@@ -9,8 +9,9 @@ then prints the matched substrings as an array.
 
 `{10}`: The curly braces '{}' denote a quantifier, and in this case, it means the preceding pattern (the digit '\d') should appear exactly 10 times.
 
+
                         ==> puts ARGV[0].scan(/^\d{10}/).join <==
 The `join` method combines all the elements of the array(result of `scan`) into a single string, with no separator between them.
 """
 #puts ARGV[0].scan(/^\d{10}/).join  ==>  This code works, but the validator did not accept it.
-puts ARGV[0].scan(/^\d{10}$/).join
+puts ARGV[0].scan(/^\d{10}$/)
