@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script that displays TCP and UDP listening ports
+# Script that displays TCP and UDP listening ports.
 
 IP_ADDRESS="${1}"
 
