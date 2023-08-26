@@ -20,22 +20,22 @@
 <h2><strong>4. Network Interfaces and ifconfig 🖧</strong></h2>
 <p><strong>Network interfaces</strong> are the conduits—physical or virtual—that enable device communication within a network. Using the <code>ifconfig</code> command (or <code>ip</code> command in modern systems) unveils crucial insights into active network interfaces on your machine. This command furnishes details like IP addresses, MAC addresses, network status, and more. Proficiency in identifying active interfaces is pivotal for adept network configuration management.</p>
 
-<div align="center"><p><img src="https://i.imgur.com/5rVjwII.png" alt="Network Interfaces"></p></div>
+<div align="center"><p><img src="https://i.imgur.com/5rVjwII.png" alt="Network Interfaces" width="800px" height="520px"></p></div>
 
 <h2><strong>5. Telnet: Network Connectivity Testing 🌐🔌</strong></h2>
 <p><strong>Telnet</strong>, a command-line utility, facilitates establishing simple text-based connections to remote hosts over networks. It&#39;s a staple for network connectivity tests, troubleshooting, and verifying responsiveness of specific ports on remote hosts. For instance, <code>telnet google.com 80</code> evaluates communication with Google&#39;s web server on port 80, the default HTTP port.</p>
 
-<div align="center"><p><img src="image5.png" alt="Telnet"></p></div>
+<div align="center"><p><img src="https://i.imgur.com/A6bKV8i.png" alt="Telnet" width="800px" height="420px"></p></div>
 
 <h2><strong>6. Netcat (nc): A Swiss Army Knife for Networking 🛠️🌐</strong></h2>
 <p><strong>Netcat (nc)</strong> emerges as a versatile networking utility renowned as the &quot;Swiss Army knife.&quot; It operates as a powerful mechanism for reading from and writing to network connections. Port scanning, file transfers, banner extraction, and even reverse shell creation during security assessments find utility in the <code>nc</code> command. For instance, <code>nc example.com 8080</code> triggers a connection to &quot;example.com&quot; on port 8080.</p>
 
-<div align="center"><p><img src="image6.png" alt="Netcat"></p></div>
+<div align="center"><p><img src="https://i.imgur.com/uijCcAj.png" alt="Netcat" width="800px" height="520px"></p></div>
 
 <h2><strong>7. Cut: Refining Data Extraction ✂️</strong></h2>
 <p>The <code>cut</code> command&#39;s potency lies in extracting precise sections from text lines. Particularly valuable for text file manipulation and log processing, <code>cut</code> operates by specifying delimiters and fields. For instance, <code>cut -d, -f2</code> surgically removes the second field from comma-separated data, streamlining data processing.</p>
 
-<div align="center"><p><img src="image7.png" alt="Cut Command"></p></div>
+<div align="center"><p><img src="https://i.imgur.com/85Pu0zg.png" alt="Cut Command" width="800px" height="420px"></p></div>
 
 <h2><strong>8. Practical Commands 🛠️</strong></h2>
 <p>Embrace these practical command-line operations to bolster your network management and data manipulation prowess:</p>
@@ -45,5 +45,5 @@
 <li>Utilize Netcat&#39;s versatility: <code>nc &lt;destination&gt; &lt;port&gt;</code>. Example: <code>nc example.com 8080</code>.</li>
 <li>Extract text with Cut: <code>cut -d&lt;delimiter&gt; -f&lt;field_number&gt;</code>. Example: <code>cut -d, -f2</code>.</li>
 </ul>
-<h2><strong>Conclusion 🎉</strong></h2>
-<p>This comprehensive integration delves into essential networking and administration concepts while arming you with practical command-line tools. From comprehending the significance of &quot;localhost&quot; and &quot;0.0.0.0&quot; to harnessing the hosts file and mastering commands like <code>ifconfig</code>, <code>telnet</code>, <code>nc</code>, and <code>cut</code>, you&#39;re equipped to navigate networking intricacies, administer systems, and manipulate data effectively.</p>
+<div align="center"><h2><strong>Conclusion 🎉</strong></h2>
+<p>This comprehensive integration delves into essential networking and administration concepts while arming you with practical command-line tools. From comprehending the significance of &quot;localhost&quot; and &quot;0.0.0.0&quot; to harnessing the hosts file and mastering commands like <code>ifconfig</code>, <code>telnet</code>, <code>nc</code>, and <code>cut</code>, you&#39;re equipped to navigate networking intricacies, administer systems, and manipulate data effectively.</p></div>
