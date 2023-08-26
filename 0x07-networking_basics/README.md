@@ -3,7 +3,7 @@
 <p>Networking is the backbone of modern communication systems, enabling devices to establish connections, share data, and collaborate seamlessly. This comprehensive guide delves into essential networking concepts, ranging from the OSI model&#39;s layered structure to network protocols like ICMP, providing a deeper understanding of how data traverses various types of networks.</p>
 
 <div align="center">  
-<img src="https://i.imgur.com/jbgtGCE.gif" alt="coding" width="750px" height="350px" /></div>
+<img src="./picture/1.gif" alt="coding" width="750px" height="350px" /></div>
 
 <h2>OSI Model: Layers of Communication 🏢</h2>
 <p>The <strong>OSI (Open Systems Interconnection)</strong> model serves as a conceptual blueprint for networking protocols to interact harmoniously. It comprises seven layers, each fulfilling a distinct role in the communication process:</p>
@@ -25,14 +25,14 @@
 </ol>
 
 <div align="center"> 
-<p><img src="https://i.imgur.com/ZCozOfC.png" alt="OSI Model"></p></div>
+<p><img src="./picture/2.png" alt="OSI Model"></p></div>
 
 <h2>Types of Networks: LAN, WAN, and Internet 🌍</h2>
 <p><strong>Local Area Networks (LANs)</strong> are confined to a limited geographical area, such as a home, office, or campus. They utilize Ethernet cables or Wi-Fi to interconnect devices, fostering fast communication and resource sharing within the same vicinity.</p>
 <p><strong>Wide Area Networks (WANs)</strong> extend beyond LANs, connecting geographically separated networks. The <strong>Internet</strong>, the largest and most ubiquitous WAN, seamlessly interconnects millions of networks worldwide, enabling global communication and data exchange.</p>
 
 <div align="center"> 
-<p><img src="https://i.imgur.com/MikJfSc.png" alt="LAN vs WAN"></p></div>
+<p><img src="./picture/3.png" alt="LAN vs WAN"></p></div>
 
 
 <h2>IP Addressing: Uniquely Identifying Devices 🔍</h2>
@@ -46,7 +46,7 @@
 
 
 <div align="center"> 
-<p><img src="https://i.imgur.com/NooeZcI.jpg" alt="Private and Public IP Addresses"></p></div>
+<p><img src="./picture/4.jpeg" alt="Private and Public IP Addresses"></p></div>
 
 
 <div align="center"> <h2>IPv4 and IPv6: Addressing Evolution 🔄</h2>
@@ -57,14 +57,14 @@
 <p>Every network interface controller (NIC) is assigned a <strong>MAC (Media Access Control)</strong> address. This 48-bit unique identifier is burned into the NIC&#39;s hardware and facilitates communication within the local network. It operates at the data link layer and is essential for devices to recognize each other on a LAN.</p></div>
 
 <div align="center"> 
-<p><img src="https://i.imgur.com/MHq8OtI.jpg" alt="MAC Address"></p></div>
+<p><img src="./picture/5.jpg" alt="MAC Address"></p></div>
 
 <h2>TCP and UDP: Reliable vs. Fast Communication 📊</h2>
 <p><strong>Transmission Control Protocol (TCP)</strong> offers reliable, ordered, and error-checked data delivery. It ensures that data packets are received in the correct order and that missing or corrupted packets are retransmitted. This protocol is crucial for applications that demand data integrity, such as web browsing.</p>
 <p><strong>User Datagram Protocol (UDP)</strong> prioritizes speed over reliability. It lacks the mechanisms for retransmission and ordered delivery found in TCP, making it ideal for applications like real-time video streaming and online gaming.</p>
 
 <div align="center"> 
-<p><img src="https://i.imgur.com/cqGotUn.jpg" alt="TCP and UDP"></p></div>
+<p><img src="./picture/6.jpg" alt="TCP and UDP"></p></div>
 
 <div align="center"> <h2>TCP/UDP Ports: Gateway to Applications 🚪</h2>
 <p>Ports play a pivotal role in network communication. They&#39;re used to differentiate between various services and applications on a single device. Ports are categorized into well-known, registered, and dynamic ranges. For example, HTTP typically uses port 80, while HTTPS uses port 443.</p></div>
@@ -151,7 +151,7 @@
 <p><strong>Ping</strong>, utilizing the <strong>ICMP (Internet Control Message Protocol)</strong>, is a versatile tool for testing network connectivity and diagnosing issues. When you send a ping request to an IP address, the target device responds with a reply. The round-trip time and success/failure of the response offer insights into network performance and potential problems.</p></div>
 
 <div align="center"> 
-<p><img src="https://i.imgur.com/0Gr5Xoa.jpg" alt="Ping and ICMP"></p>
+<p><img src="./picture/7.jpg" alt="Ping and ICMP"></p>
 
 <h2>Netstat: Network Statistics and Connections 📈</h2>
 <p><strong>Netstat</strong> is a command-line utility that furnishes detailed information about network connections, routing tables, interface statistics, masquerade connections, and more. It&#39;s a valuable tool for diagnosing network issues and understanding the flow of data.</p>
