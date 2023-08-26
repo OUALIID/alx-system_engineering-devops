@@ -2,9 +2,9 @@
 <p>In the realm of computer networking and system administration, understanding fundamental concepts is paramount for managing network connections, configuring services, and ensuring seamless communication between devices. This integrated topic aims to elucidate core concepts such as &quot;localhost,&quot; &quot;0.0.0.0,&quot; and the &quot;hosts file,&quot; while also diving into practical command-line tools like <code>ifconfig</code>, <code>telnet</code>, <code>nc</code> (netcat), and <code>cut</code>. Through lucid explanations, accompanied by pertinent images, you&#39;ll achieve a comprehensive grasp of these crucial elements.</p>
 
 <h2><strong>1. Localhost and 127.0.0.1: The Loopback Connection 🔄</strong></h2>
-<p><img src="image1.png" alt="Localhost"></p>
-
 <p>The term <strong>localhost</strong> signifies the loopback address, facilitating access to network services hosted on the same machine via the network interface. This concept is indispensable for testing and development. When you access &quot;localhost&quot; or &quot;127.0.0.1&quot; in your web browser, you&#39;re essentially communicating with your own machine through the loopback interface.</p>
+
+<div align="center"><p><img src="https://i.imgur.com/yKhimfC.png" alt="Localhost" width="800px" height="350px"></p></div>
 
 <h2><strong>2. 0.0.0.0: The Wildcard Address for All Interfaces 🌎</strong></h2>
 <p><img src="image2.png" alt="Wildcard Address"></p>
