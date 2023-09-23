@@ -1,4 +1,5 @@
 <div align="center"><h1>Unveiling the Power of Configuration Management with ✨Puppet✨</h1></div>
+<div align="center"><p><img src="./picture/Puppet.jpg" alt="Wildcard Address" width="800px" height="420px"></p></div>
 
 ## Introduction
 
