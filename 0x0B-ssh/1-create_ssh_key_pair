@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 # This is the primary command you execute to create SSH key pairs.
-ssh-keygen
+# -t <key_type>: This option specifies the type of key to generate, such as rsa, ed25519, ecdsa.
+# -b <key_length>: This option sets the key length.
+# -C <comment>: This option allows you to add a comment to your key. 
+# -f <filename>: This option specifies the filename for the generated key pair.
+# -N <passphrase>: This option lets you set a passphrase (password) for the private key.
+# -q (for quiet mode, no warnings)**: This option suppresses warning messages and runs `ssh-keygen` in quiet mode.
+ssh-keygen -f school -b 4096 -N "betty"
