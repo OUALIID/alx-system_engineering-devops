@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# 
+# Host * : A catch-all rule that matches any host you try to connect to.
+# IdentityFile school : specifies the path to the private key that should be used for authentication when connecting to any host.
+# PasswordAuthentication no :sets `PasswordAuthentication` to `no`, which means password-based authentication is disabled for all hosts. 
+Host *
+IdentityFile school
+PasswordAuthentication no
