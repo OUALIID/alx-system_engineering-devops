@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This is the primary command you execute to create SSH key pairs.
+ssh-keygen
