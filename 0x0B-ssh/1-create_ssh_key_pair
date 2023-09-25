@@ -5,5 +5,5 @@
 # -C <comment>: This option allows you to add a comment to your key. 
 # -f <filename>: This option specifies the filename for the generated key pair.
 # -N <passphrase>: This option lets you set a passphrase (password) for the private key.
-# -q (for quiet mode, no warnings)**: This option suppresses warning messages and runs `ssh-keygen` in quiet mode.
+# -q (for quiet mode, no warnings): This option suppresses warning messages and runs `ssh-keygen` in quiet mode.
 ssh-keygen -f school -b 4096 -N "betty"
