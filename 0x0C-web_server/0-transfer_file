@@ -3,12 +3,12 @@
 # If the number of command-line arguments ($#) is not equal (-ne) to 4, then do something.
 if [ $# -ne 4 ]
 then
-	echo "Usage: $0 PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+    echo "Usage: $0 PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+    exit 1
 else
-    export SSH_OPTIONS="-o StrictHostKeyChecking=no"
-	FILE_PATH="$1"
-	SERVER_IP="$2"
-	USERNAME="$3"
-	PRIVATE_KEY_PATH="$4"
-	scp "$SSH_OPTIONS" -i "$PRIVATE_KEY_PATH" "$FILE_PATH" "$USERNAME@$SERVER_IP:~/"
+    PATH_TO_FILE="$1"
+    IP="$2"
+    USERNAME="$3"
+    PRIVATE_KEY_PATH="$4"
+    scp -o StrictHostKeyChecking=no -i "$PRIVATE_KEY_PATH" "$PATH_TO_FILE" "$USERNAME@$IP:~/"
 fi
