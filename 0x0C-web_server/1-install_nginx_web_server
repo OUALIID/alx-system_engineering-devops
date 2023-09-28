@@ -2,5 +2,5 @@
 # Bash script that configures a new Ubuntu machine.
 apt-get update -y
 apt-get install nginx -y
-sh -c 'echo "Hello World!" > /var/www/html/index.html'
+echo "Hello World!" > /var/www/html/index.html
 service nginx start
