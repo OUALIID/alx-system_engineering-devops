@@ -1,14 +1,10 @@
 #!/usr/bin/env bash
 # Update the system and install Nginx (if not already installed)
-apt-get update -y
-apt-get install nginx -y
-echo "server {
-    listen 80;
-    server_name _;
-    location /redirect_me {
-        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
-    }
-}" > /etc/nginx/sites-available/redirect
-ln -s /etc/nginx/sites-available/redirect /etc/nginx/sites-enabled/
-nginx -t
-systemctl restart nginx
+
+sudo apt-get update
+sudo apt-get install -y nginx
+
+Replaceable_chain="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/OUALIID permanent;"
+sudo sed -i "s/server_name _;/$Replaceable_chain/" /etc/nginx/sites-enabled/default
+
+sudo service nginx restart
