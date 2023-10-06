@@ -1,5 +1,11 @@
-<h1 id="load-balancing-with-haproxy">Load Balancing with HAProxy</h1>
+<div align="center">
+  <h1>HAProxy Load Balancing and HTTP Header Mastery</h1></div>
+
 <p>Load balancing is a crucial technique for high-traffic web servers to ensure high availability and maintain server performance during traffic spikes. HAProxy (Highly Available Proxy) is a popular, reliable, and cost-efficient solution for load balancing. This guide explains how to set up and use HAProxy for load balancing.</p>
+
+<div align="center">  
+<img src="./picture/1.gif" alt="coding" width="750px" height="350px" /></div>
+
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
 <li><a href="#introduction">Introduction</a></li>
@@ -400,3 +406,15 @@ X-Cache-Info: cached
 </li>
 </ul>
 <p>This comprehensive guide covers setting up HAProxy for load balancing and provides an introduction to HTTP headers.</p>
+
+# Conclusion
+
+In conclusion, this comprehensive guide has taken you through the essential steps of setting up HAProxy for load balancing, providing a reliable and efficient solution for distributing traffic across multiple web servers. You've learned the fundamental concepts of HAProxy, including its modes of operation and various configuration sections.
+
+Starting from the installation of HAProxy on your system, you've delved into creating a basic configuration file, setting up defaults, frontends, backends, and rules. You've also explored how to monitor the health of your load-balanced nodes through HAProxy's built-in web application.
+
+Furthermore, this guide expanded its scope to include a brief explanation of HTTP headers. You now understand that HTTP headers play a crucial role in conveying additional context and metadata about HTTP requests and responses, enhancing the flexibility and functionality of web communication.
+
+With this knowledge, you are well-equipped to implement HAProxy for load balancing and manipulate HTTP headers to customize your web server behavior as needed.
+
+By following these instructions and gaining insights into load balancing and HTTP headers, you are better prepared to optimize the performance, reliability, and scalability of your web services. Whether you are managing a high-traffic website or a complex web application, HAProxy and HTTP headers are valuable tools in your arsenal for a seamless and efficient web experience.
