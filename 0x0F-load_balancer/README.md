@@ -45,8 +45,8 @@
 </li>
 </ol>
 
-
-<p>  <img src="/images/image_1.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_1.png" alt="Global Section"></p></div>
 
 
 <h3>Installation on CentOS and RHEL-based Systems</h3>
@@ -73,13 +73,14 @@
 
 <li><p>The global section: Contains configuration for HAProxy, such as SSL locations, logging information, and the user and group that execute HAProxy functions. There is only one global in a configuration file, and the values should not be altered.</p>
 
-
-<p><img src="/images/image_2.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_2.png" alt="Global Section"></p></div>
 
 </li>
 <li><p>The defaults section: Sets the default values for all nodes defined below it. Multiple defaults sections are possible, and they override previous default values.</p>
 
-<p><img src="/images/image_3.png" alt="Defaults Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_3.png" alt="Global Section"></p></div>/p>
 
 </li>
 </ul>
@@ -118,7 +119,8 @@ listen
     timeout http-request 5s
 </code></pre>
 
-<p><img src="/images/image_4.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_4.png" alt="Global Section"></p></div>
 
 <p>The code consists of:</p>
 <ul>
@@ -153,7 +155,8 @@ frontend my_frontend
     bind 127.0.0.1:80
 </code></pre>
 
-<p><img src="/images/image_5.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_5.png" alt="Global Section"></p></div>
 
 <p>The new lines consist of the following information:</p>
 <ul>
@@ -171,7 +174,9 @@ frontend my_frontend
 <pre><code class="language-bash">curl 127.0.0.1:80
 </code></pre>
 
-<p><img src="/images/image_6.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_6.png" alt="Global Section"></p></div>
+
 <p>The response returns a <code>503</code> error, meaning there is no reply from the server. The response makes sense because the backend servers currently do not exist. The following step sets up the backend node.</p>
 <h2>Setting Backend</h2>
 
@@ -195,7 +200,8 @@ backend my_backend
     server server2 127.0.0.1:8002
 </code></pre>
 
-<p><img src="/images/image_7.png" alt="Global Section">
+<div align="center"> 
+    <p><img src="./images/image_7.png" alt="Global Section"></p></div>
 
 Each line has the following information:</p>
 <ul>
@@ -226,18 +232,22 @@ Each line has the following information:</p>
 <pre><code class="language-bash">python3 -m http.server 8002 --bind 127.0.0.1
 </code></pre>
 
-<p><img src="/images/image_8.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_8.png" alt="Global Section"></p></div>
 
 <ol start="3">
 <li>In a third terminal window, send a request to confirm the connection works:</li></ol>
 
 <pre><code class="language-bash">curl 127.0.0.1</code></pre>
 
-<p><img src="/images/image_9.png" alt="Global Section">
+<div align="center"> 
+    <p><img src="./images/image_9.png" alt="Global Section"></p></div>
 
 The server processes the request from the client and sends a response back. The output displays the contents of the directory where the server is running.</p>
 <p>Check the terminal window of the running server to see the request.</p>
-<p><img src="/images/image_10.png" alt="Global Section"></p>
+
+<div align="center"> 
+    <p><img src="./images/image_10.png" alt="Global Section"></p></div>
 
 <p>The output shows the GET request with a response <code>200</code>.</p>
 <h2>Setting Rules</h2>
@@ -269,7 +279,9 @@ backend third
     server server3 127.0.0.1:8003
 </code></pre>
 
-<p><img src="/images/image_11.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_11.png" alt="Global Section"></p></div>
+
 <p>The code does the following:</p>
 <ul>
 <li><p>Binds the address to three ports (81, 82, and 83).</p>
@@ -310,7 +322,8 @@ listen stats
     stats auth username:password
 </code></pre>
 
-<p><img src="/images/image_12.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_12.png" alt="Global Section"></p></div>
 
 <p>New additions to the file include:</p>
 <ul>
@@ -332,11 +345,13 @@ listen stats
 </li>
 </ol>
 
-<p><img src="/images/image_13.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_13.png" alt="Global Section"></p></div>
 
 <p>The monitoring page displays, showing various statistics for individual nodes.</p>
 
-<p><img src="/images/image_14.png" alt="Global Section"></p>
+<div align="center"> 
+    <p><img src="./images/image_14.png" alt="Global Section"></p></div>
 
 <p>The statistics display detailed information for the frontend and backend sections, while the final table shows the general statistics for both.</p>
 <h1>HTTP Header</h1>
