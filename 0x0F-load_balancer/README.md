@@ -1,10 +1,10 @@
 <div align="center">
-  <h1>HAProxy Load Balancing and HTTP Header Mastery</h1></div>
+  <h1>✨HAProxy Load Balancing and HTTP Header Mastery✨</h1></div>
 
 <p>Load balancing is a crucial technique for high-traffic web servers to ensure high availability and maintain server performance during traffic spikes. HAProxy (Highly Available Proxy) is a popular, reliable, and cost-efficient solution for load balancing. This guide explains how to set up and use HAProxy for load balancing.</p>
 
 <div align="center">  
-<img src="./picture/1.gif" alt="coding" width="750px" height="350px" /></div>
+<img src="./images/image_15.gif" alt="coding" width="750px" height="350px" /></div>
 
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
