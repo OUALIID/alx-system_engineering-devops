@@ -17,6 +17,8 @@
 <li><a href="#setting-backend">Setting Backend</a></li>
 <li><a href="#setting-rules">Setting Rules</a></li>
 <li><a href="#monitoring">Monitoring</a></li>
+<li><a href="#http-header">HTTP Header</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul>
 <h2>Introduction</h2>
 <p>High-traffic web servers benefit from implementing load balancers. A load balancer helps relay traffic across multiple web servers, ensuring high availability and maintaining web server performance during traffic spikes.</p>
@@ -360,7 +362,10 @@ listen stats
     <p><img src="./images/image_14.png" alt="Global Section"></p></div>
 
 <p>The statistics display detailed information for the frontend and backend sections, while the final table shows the general statistics for both.</p>
-<h1>HTTP Header</h1>
+
+
+<h2>HTTP Header</h2>
+
 <p>An HTTP header is a field of an HTTP request or response that passes additional context and metadata about the request or response. For example, a request message can use headers to indicate its preferred media formats, while a response can use headers to indicate the media format of the returned body. Headers are case-insensitive, begin at the start of a line, and are immediately followed by a &#39;:&#39; and a header-dependent value. The value finishes at the next CRLF or at the end of the message.</p>
 <p>The HTTP and Fetch specifications refer to a number of header categories, including:</p>
 <ul>
@@ -407,7 +412,7 @@ X-Cache-Info: cached
 </ul>
 <p>This comprehensive guide covers setting up HAProxy for load balancing and provides an introduction to HTTP headers.</p>
 
-# Conclusion
+<h2>Conclusion</h2>
 
 In conclusion, this comprehensive guide has taken you through the essential steps of setting up HAProxy for load balancing, providing a reliable and efficient solution for distributing traffic across multiple web servers. You've learned the fundamental concepts of HAProxy, including its modes of operation and various configuration sections.
 
