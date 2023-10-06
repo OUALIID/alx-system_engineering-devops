@@ -86,7 +86,7 @@
 <li><p>The defaults section: Sets the default values for all nodes defined below it. Multiple defaults sections are possible, and they override previous default values.</p>
 
 <div align="center"> 
-    <p><img src="./images/image_3.png" alt="Global Section"></p></div>/p>
+    <p><img src="./images/image_3.png" alt="Global Section"></p></div>
 
 </li>
 </ul>
