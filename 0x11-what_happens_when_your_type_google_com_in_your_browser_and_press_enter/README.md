@@ -1,7 +1,7 @@
 <div align="center">
     <h1>Understanding the Web Request Process: From URL to ✨Webpage Display✨</h1></div>
 
-<img src="" alt="Web Request Journey">
+<img src="pictures/typing-gerald-broflovski.gif" alt="Web Request Journey">
 
 <p>When you type "https://www.google.com" into your web browser and hit Enter, you initiate a fascinating journey that involves various components working together to fetch and display the requested webpage. This comprehensive guide will unravel the intricacies of this process, explaining each step clearly and concisely while incorporating visual aids for an easier understanding.</p>
 
