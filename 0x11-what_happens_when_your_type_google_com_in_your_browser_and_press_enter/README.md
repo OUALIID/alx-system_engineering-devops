@@ -3,9 +3,6 @@
 <div align="center">  
 <img src="pictures/typing-gerald-broflovski.gif" alt="Web Request Journey" width="750px" height="350px" ></div>
 
-
-
-
 <h2>Table of Contents:</h2>
   <ul>
     <li><a href="#introduction">Introduction</a></li>
