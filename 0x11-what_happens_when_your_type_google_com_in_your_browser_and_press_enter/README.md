@@ -25,7 +25,7 @@
   <h2 id="tcp-ip">TCP/IP:</h2>
   <p>Once the IP address is resolved, your computer establishes a connection using TCP/IP (Transmission Control Protocol/Internet Protocol), the foundation of internet communication. This ensures reliable data transmission between your device and the web server.</p>
   <div align="center">  
-  <img src="pictures/tcp-ip.png" alt="TCP/IP"></div>
+  <img src="pictures/tcp_ip.png" alt="TCP/IP"></div>
 
   <h2 id="firewall">Firewall:</h2>
   <p>Firewalls play a crucial role in the process by monitoring and filtering incoming and outgoing traffic. They act as a security barrier, safeguarding your computer against malicious connections and unauthorized access.</p>
