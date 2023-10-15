@@ -1,3 +1,5 @@
+# Understanding the Web Request Process: From URL to Webpage Display
+
 **Introduction:**
 When you type "https://www.google.com" into your web browser and hit Enter, you initiate a fascinating journey that involves various components working together to fetch and display the requested webpage. This comprehensive guide will unravel the intricacies of this process, explaining each step clearly and concisely while incorporating visual aids for an easier understanding.
 
