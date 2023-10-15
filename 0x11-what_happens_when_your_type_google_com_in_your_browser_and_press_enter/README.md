@@ -20,11 +20,12 @@
   <h2 id="dns-request">DNS Request:</h2>
   <p>The journey begins with a DNS (Domain Name System) request. DNS servers act as the internet's equivalent of a phone book, translating user-friendly domain names like "www.google.com" into the IP address necessary for your computer to locate the Google server on the internet.</p>
   <div align="center">
-  <img src="pictures/HTTP.png" alt="DNS Request"></div>
+  <img src="pictures/dns-request.png" alt="DNS Request"></div>
 
   <h2 id="tcp-ip">TCP/IP:</h2>
   <p>Once the IP address is resolved, your computer establishes a connection using TCP/IP (Transmission Control Protocol/Internet Protocol), the foundation of internet communication. This ensures reliable data transmission between your device and the web server.</p>
-  <img src="insert_image_url" alt="TCP/IP">
+  <div align="center">  
+  <img src="pictures/tcp-ip.png" alt="TCP/IP"></div>
 
   <h2 id="firewall">Firewall:</h2>
   <p>Firewalls play a crucial role in the process by monitoring and filtering incoming and outgoing traffic. They act as a security barrier, safeguarding your computer against malicious connections and unauthorized access.</p>
