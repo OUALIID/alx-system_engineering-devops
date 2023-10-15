@@ -1,12 +1,14 @@
 <div align="center">
     <h1>Understanding the Web Request Process: From URL to ✨Webpage Display✨</h1></div>
+<div align="center">  
+<img src="pictures/typing-gerald-broflovski.gif" alt="Web Request Journey" width="750px" height="350px" ></div>
 
-<img src="pictures/typing-gerald-broflovski.gif" alt="Web Request Journey">
 
-<p>When you type "https://www.google.com" into your web browser and hit Enter, you initiate a fascinating journey that involves various components working together to fetch and display the requested webpage. This comprehensive guide will unravel the intricacies of this process, explaining each step clearly and concisely while incorporating visual aids for an easier understanding.</p>
+
 
 <h2>Table of Contents:</h2>
   <ul>
+    <li><a href="#introduction">Introduction</a></li>
     <li><a href="#dns-request">DNS Request</a></li>
     <li><a href="#tcp-ip">TCP/IP</a></li>
     <li><a href="#firewall">Firewall</a></li>
@@ -16,6 +18,9 @@
     <li><a href="#application-server">Application Server</a></li>
     <li><a href="#database">Database</a></li>
   </ul>
+
+<h2>Introduction</h2>
+<p>When you type "https://www.google.com" into your web browser and hit Enter, you initiate a fascinating journey that involves various components working together to fetch and display the requested webpage. This comprehensive guide will unravel the intricacies of this process, explaining each step clearly and concisely while incorporating visual aids for an easier understanding.</p>
 
   <h2 id="dns-request">DNS Request:</h2>
   <p>The journey begins with a DNS (Domain Name System) request. DNS servers act as the internet's equivalent of a phone book, translating user-friendly domain names like "www.google.com" into the IP address necessary for your computer to locate the Google server on the internet.</p>
