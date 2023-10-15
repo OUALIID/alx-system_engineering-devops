@@ -62,5 +62,4 @@
 
   <h2>Conclusion:</h2>
   <p>The journey of a web request, from typing a URL into your browser to loading a webpage, involves a complex interplay of various components, each with a unique role. Understanding this process is essential for those entering the field of web technology, networking, or cybersecurity. By visualizing each step in this journey, you now have a comprehensive overview of how the internet works, from DNS resolution to secure data transmission and web content retrieval.</p>
-  <div align="center">
-  <img src="pictures/Comprehensive_Overview.png" alt="Comprehensive Overview"></div>
+
