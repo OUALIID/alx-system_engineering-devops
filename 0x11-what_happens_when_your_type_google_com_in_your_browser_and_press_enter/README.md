@@ -29,31 +29,31 @@
 
   <h2 id="firewall">Firewall:</h2>
   <p>Firewalls play a crucial role in the process by monitoring and filtering incoming and outgoing traffic. They act as a security barrier, safeguarding your computer against malicious connections and unauthorized access.</p>
-  <img src="insert_image_url" alt="Firewall">
+  <img src="pictures/Firewall.png" alt="Firewall">
 
   <h2 id="https-ssl">HTTPS/SSL:</h2>
   <p>To secure the data exchange between your browser and the web server, HTTPS (Hypertext Transfer Protocol Secure) is employed, often in combination with SSL (Secure Sockets Layer) or its successor, TLS (Transport Layer Security). This encryption guarantees that your information remains confidential and protected from prying eyes.</p>
-  <img src="insert_image_url" alt="HTTPS/SSL">
+  <img src="pictures/HTTPS.png" alt="HTTPS/SSL">
 
   <h2 id="load-balancer">Load Balancer:</h2>
   <p>Many popular websites, including Google, use load balancers to distribute incoming traffic evenly across multiple servers. This not only improves website performance but also ensures reliability by preventing any single server from becoming overwhelmed with requests.</p>
-  <img src="insert_image_url" alt="Load Balancer">
+  <img src="pictures/Load-balancer.png" alt="Load Balancer">
 
   <h2 id="database-of-the-internet">A Database of the Internet:</h2>
   <p>Search engines, like Google, maintain vast databases containing information about web pages. When you search for something, these databases are queried to return relevant results.</p>
-  <img src="insert_image_url" alt="Database of the Internet">
+  <img src="pictures/Web_server.png" alt="Database of the Internet">
 
   <h2 id="application-server">Application Server:</h2>
   <p>The application server plays a pivotal role by running the software responsible for generating web pages dynamically. It retrieves data from databases and processes it to create the HTML, CSS, and JavaScript code that forms the webpage.</p>
-  <img src="insert_image_url" alt="Application Server">
+  <img src="pictures/Application_server.png" alt="Application Server">
 
   <h2 id="database">Database:</h2>
   <p>Web applications frequently rely on databases to store and retrieve data, such as user information and content. Databases are crucial for managing and serving dynamic web content.</p>
-  <img src="insert_image_url" alt="Database">
+  <img src="pictures/Database.png" alt="Database">
 
   <h2>Conclusion:</h2>
   <p>The journey of a web request, from typing a URL into your browser to loading a webpage, involves a complex interplay of various components, each with a unique role. Understanding this process is essential for those entering the field of web technology, networking, or cybersecurity. By visualizing each step in this journey, you now have a comprehensive overview of how the internet works, from DNS resolution to secure data transmission and web content retrieval.</p>
-  <img src="insert_image_url" alt="Comprehensive Overview">
+  <img src="pictures/Comprehensive_Overview.png" alt="Comprehensive Overview">
 
   <p>By incorporating this guide into your Redmi profile, you can provide a valuable resource for individuals seeking a comprehensive understanding of web technology, whether they are newcomers to the field or aspiring to deepen their knowledge.</p>
 </body>
