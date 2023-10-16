@@ -180,5 +180,5 @@
 <img src="pictures/Limitations.png" alt="Firewall" width="650px" height="350px" ></div>
 
 <h2>Conclusion</h2>
-<p>This comprehensive guide has provided you with an in-depth understanding of firewalls, their types, functions, advantages, and limitations. Cybersecurity is an ever-evolving field, and the role of firewalls in safeguarding networks remains critical. While there may be advanced alternatives in the future, firewalls continue to be a cornerstone of network security.</p>
+<p>This comprehensive guide has provided you with an in-depth understanding of firewalls, their types, functions, advantages and limitations. The role of firewalls in protecting networks remains crucial. Although there may be advanced alternatives in the future, firewalls still represent the cornerstone of network security.</p>
 
