@@ -23,7 +23,7 @@
 </ol>
 
 
-<h2>1 Introduction</h2>
+<h2>Introduction</h2>
 <p>In the era of increasing cybercrimes, the security of personal and corporate data is of paramount importance. Firewalls are a crucial component in safeguarding networks and devices against external threats. This guide on &quot;What is a Firewall&quot; aims to provide a comprehensive understanding of firewalls and their role in protecting your network.</p>
 
 <h3>What Is a Firewall?</h3>
