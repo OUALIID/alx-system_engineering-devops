@@ -49,7 +49,7 @@
 </ol>
 
 <div align="center">  
-<img src="pictures/Types.png" alt="Firewall" width="750px" height="350px" ></div>
+<img src="pictures/Types.png" alt="Firewall" ></div>
 
 <h2>How Does a Firewall Work</h2>
 <p>A firewall acts as a gatekeeper for your network, allowing or blocking incoming traffic based on a set of rules. It discerns between trusted and malicious traffic, permitting or blocking specific data packets according to predefined security rules.</p>
@@ -102,7 +102,7 @@
 <p>Application layer filtering by proxy firewalls can block malware and identify misuse across various protocols, including HTTP, FTP, specific applications, and DNS.</p>
 
 <div align="center">  
-<img src="pictures/Application.png" alt="Firewall" width="750px" height="350px" ></div>
+<img src="pictures/Application.png" alt="Firewall" ></div>
 
 <h2>The Importance of NAT and VPN</h2>
 <p>Network Address Translation (NAT) and Virtual Private Networks (VPN) are fundamental functions in firewalls.</p>
@@ -118,7 +118,7 @@
 </ul>
 
 <div align="center">  
-<img src="pictures/Importance.png" alt="Firewall" width="750px" height="350px" ></div>
+<img src="pictures/Importance.png" alt="Firewall"></div>
 
 <h2>Next Generation Firewalls (NGFW)</h2>
 <p>Next-Generation Firewalls inspect packets at the application level of the TCP/IP stack, allowing them to identify specific applications and enforce security policies. NGFWs also include sandboxing and threat prevention technologies to detect and prevent malware and threats</p>
@@ -177,7 +177,7 @@
 </ul>
 
 <div align="center">  
-<img src="pictures/Limitations.png" alt="Firewall" width="750px" height="350px" ></div>
+<img src="pictures/Limitations.png" alt="Firewall" width="650px" height="350px" ></div>
 
 <h2>Conclusion</h2>
 <p>This comprehensive guide has provided you with an in-depth understanding of firewalls, their types, functions, advantages, and limitations. Cybersecurity is an ever-evolving field, and the role of firewalls in safeguarding networks remains critical. While there may be advanced alternatives in the future, firewalls continue to be a cornerstone of network security.</p>
