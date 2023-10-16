@@ -5,7 +5,7 @@
 
 <h2>Table of Contents</h2>
 <ol>
-<li><a href="#1-introduction">1 Introduction</a></li>
+<li><a href="#introduction">Introduction</a></li>
 <li><a href="#types-of-firewalls">Types of Firewalls</a></li>
 <li><a href="#how-does-a-firewall-work">How Does a Firewall Work</a></li>
 <li><a href="#why-are-firewalls-important">Why Are Firewalls Important</a></li>
