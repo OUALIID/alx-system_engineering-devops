@@ -5,7 +5,7 @@
 
 <h2>Table of Contents</h2>
 <ol>
-<li><a href="#introduction">Introduction</a></li>
+<li><a href="#1-introduction">1 Introduction</a></li>
 <li><a href="#types-of-firewalls">Types of Firewalls</a></li>
 <li><a href="#how-does-a-firewall-work">How Does a Firewall Work</a></li>
 <li><a href="#why-are-firewalls-important">Why Are Firewalls Important</a></li>
@@ -23,7 +23,7 @@
 </ol>
 
 
-<h2>Introduction</h2>
+<h2>1 Introduction</h2>
 <p>In the era of increasing cybercrimes, the security of personal and corporate data is of paramount importance. Firewalls are a crucial component in safeguarding networks and devices against external threats. This guide on &quot;What is a Firewall&quot; aims to provide a comprehensive understanding of firewalls and their role in protecting your network.</p>
 
 <h3>What Is a Firewall?</h3>
