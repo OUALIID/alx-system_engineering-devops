@@ -1,6 +1,9 @@
+<div align="center">
+<h1>Mastering Firewalls: Types, Functionality, Benefits, and ✨Significance✨</h1></div>
+<div align="center">  
+<img src="pictures/Firewall.mp4" alt="Firewall" width="750px" height="350px" ></div>
 
-<h1 id="firewall-types-working-advantages-and-importance">Firewall: Types, Working, Advantages, and Importance</h1>
-<h2 id="table-of-contents">Table of Contents</h2>
+<h2>Table of Contents</h2>
 <ol>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#types-of-firewalls">Types of Firewalls</a></li>
@@ -22,6 +25,7 @@
 
 <h2 id="introduction">Introduction</h2>
 <p>In the era of increasing cybercrimes, the security of personal and corporate data is of paramount importance. Firewalls are a crucial component in safeguarding networks and devices against external threats. This guide on &quot;What is a Firewall&quot; aims to provide a comprehensive understanding of firewalls and their role in protecting your network.</p>
+
 <h3 id="what-is-a-firewall">What Is a Firewall?</h3>
 <p>A firewall is a network security device designed to monitor and filter incoming and outgoing network traffic based on predefined security policies. It acts as a protective barrier between a private internal network and the public Internet, preventing unauthorized access and cyberattacks.</p>
 <p>Firewalls are employed in both enterprise and personal settings, playing a vital role in network security. While most operating systems include basic built-in firewalls, the use of third-party firewall applications often offers enhanced protection.</p>
