@@ -1,5 +1,4 @@
-<p>Certainly, I can help you modify the content for your GitHub repository. Here&#39;s the content with some minor adjustments for your GitHub documentation:</p>
-<hr>
+
 <h1 id="firewall-types-working-advantages-and-importance">Firewall: Types, Working, Advantages, and Importance</h1>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol>
@@ -18,7 +17,6 @@
 <li><a href="#difference-between-a-firewall-and-antivirus">Difference Between a Firewall and Antivirus</a></li>
 <li><a href="#limitations-of-a-firewall">Limitations of a Firewall</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
-<li><a href="#faqs">FAQs</a></li>
 </ol>
 <hr>
 <h2 id="introduction">Introduction</h2>
