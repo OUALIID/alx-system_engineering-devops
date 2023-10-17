@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Mastering Firewalls: Types, Functionality, Benefits, and ✨Significance✨</h1></div>
-<div align="center">  
-<img src="pictures/Firewall.mp4" alt="Firewall" width="750px" height="350px" ></div>
+
+https://github.com/OUALIID/alx-system_engineering-devops/assets/96590775/63fa48c4-600a-416e-87d9-400dd08afe7c
 
 <h2>Table of Contents</h2>
 <ol>
@@ -21,7 +21,6 @@
 <li><a href="#limitations-of-a-firewall">Limitations of a Firewall</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
 </ol>
-
 
 <h2>Introduction</h2>
 <p>In the era of increasing cybercrimes, the security of personal and corporate data is of paramount importance. Firewalls are a crucial component in safeguarding networks and devices against external threats. This guide on &quot;What is a Firewall&quot; aims to provide a comprehensive understanding of firewalls and their role in protecting your network.</p>
@@ -96,7 +95,6 @@
 <li><strong>Active Network</strong>: Implement active network redundancies to prevent downtime and back up critical data in case of disasters.</li>
 </ul>
 
-
 <h2>Application Layer and Proxy Firewalls</h2>
 <p>Proxy firewalls offer protection at the application layer by filtering and examining packet payloads to distinguish between valid requests and potentially malicious code. These firewalls prevent application layer attacks and offer granular control over network traffic.</p>
 <p>Application layer filtering by proxy firewalls can block malware and identify misuse across various protocols, including HTTP, FTP, specific applications, and DNS.</p>
@@ -123,7 +121,6 @@
 <h2>Next Generation Firewalls (NGFW)</h2>
 <p>Next-Generation Firewalls inspect packets at the application level of the TCP/IP stack, allowing them to identify specific applications and enforce security policies. NGFWs also include sandboxing and threat prevention technologies to detect and prevent malware and threats</p>
 <p> effectively.</p>
-
 
 <h2>The Future of Network Security</h2>
 <p>In recent years, advancements in virtualization and changes in data center architectures have led to increased east-west traffic. This shift has prompted some experts to reconsider the role of firewalls in ensuring network security. As enterprise organizations transition from traditional three-layer data center architectures to more agile leaf-spine architectures, firewalls continue to play a crucial role in maintaining a secure network environment. While the future of network security may introduce advanced alternatives to firewalls, the importance of firewalls remains undiminished.</p>
@@ -165,7 +162,6 @@
 </tr>
 </tbody></table>
 
-
 <h2>Limitations of a Firewall</h2>
 <p>It&#39;s important to be aware of the limitations of firewalls:</p>
 <ul>
@@ -181,4 +177,3 @@
 
 <h2>Conclusion</h2>
 <p>This comprehensive guide has provided you with an in-depth understanding of firewalls, their types, functions, advantages and limitations. The role of firewalls in protecting networks remains crucial. Although there may be advanced alternatives in the future, firewalls still represent the cornerstone of network security.</p>
-
