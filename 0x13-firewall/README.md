@@ -173,7 +173,7 @@ https://github.com/OUALIID/alx-system_engineering-devops/assets/96590775/63fa48c
 </ul>
 
 <div align="center">  
-<img src="pictures/Limitations.png" alt="Firewall" width="650px" height="350px" ></div>
+<img src="pictures/Limitations.png" alt="Firewall" width="650px" height="350px" >
 
 <h2>Conclusion</h2>
 <p>This comprehensive guide has provided you with an in-depth understanding of firewalls, their types, functions, advantages and limitations. The role of firewalls in protecting networks remains crucial. Although there may be advanced alternatives in the future, firewalls still represent the cornerstone of network security.</p>
