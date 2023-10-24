@@ -16,7 +16,7 @@ if __name__ == "__main__":
         f"https://jsonplaceholder.typicode.com/todos?userId={id}")
 
     tasks = tasks_request.json()
-    formatted_tasks = {f"{id}": [{
+    formatted_tasks = {tasks["userId"]: [{
         "task": task["title"],
         "completed": task["completed"],
         "username": user} for task in tasks]}
