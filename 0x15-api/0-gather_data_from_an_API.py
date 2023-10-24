@@ -25,4 +25,4 @@ if __name__ == "__main__":
     print(f"Employee {user} is done with tasks({number_1}/{number_2}):")
     for task in tasks_request.json():
         if task['completed'] is True:
-            print(f"\t{task['title']}")
+            print(f"\t {task['title']}")
