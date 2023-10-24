@@ -16,14 +16,14 @@ if __name__ == "__main__":
         f"https://jsonplaceholder.typicode.com/todos?userId={id}")
 
     filename = "2.csv"
-    for task in tasks_request.json():
-        if task['userId']:
-            data = [
-                    str(id),
-                    str(user),
-                    str(task["completed"]),
-                    str(task["title"]),
-                ]
-            with open(filename, mode="a") as file:
-                writer = csv.writer(file, quoting=csv.QUOTE_ALL)
+    with open(filename, mode="w") as file:
+        writer = csv.writer(file, quoting=csv.QUOTE_ALL)
+        for task in tasks_request.json():
+            if task['userId']:
+                data = [
+                        str(id),
+                        str(user),
+                        str(task["completed"]),
+                        str(task["title"]),
+                    ]
                 writer.writerow(data)
