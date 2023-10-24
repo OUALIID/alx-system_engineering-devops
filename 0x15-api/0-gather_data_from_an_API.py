@@ -1,4 +1,4 @@
-#!/usr/bin/pythom3
+#!/usr/bin/python3
 """A script using a REST API that returns information
 about the progress of his/her task list."""
 
