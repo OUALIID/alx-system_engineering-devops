@@ -18,12 +18,12 @@ if __name__ == "__main__":
     filename = "2.csv"
     for task in tasks_request.json():
         if task['userId']:
-            with open(filename, mode="a") as file:
-                writer = csv.writer(file, quoting=csv.QUOTE_ALL)
-                data = [
+            data = [
                     str(id),
                     str(user),
                     str(task["completed"]),
                     str(task["title"]),
                 ]
+            with open(filename, mode="a") as file:
+                writer = csv.writer(file, quoting=csv.QUOTE_ALL)
                 writer.writerow(data)
