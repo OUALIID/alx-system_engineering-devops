@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# Bash script loads Nginx and listens on port 80 for all active server IPv4 IP addresses
-sudo apt-get install nginx
-sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
-sudo service nginx restart
