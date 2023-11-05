@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script that creates a MySQL dump file and creates a zip archive from it.
+# tar is a command for creating and manipulating archive files.
+# -c: Create a new archive.
+# -z: Compress the archive using gzip.
+# -f: Specify the archive file name.
+mysqldump -u root -p${1} --all-databases > backup.sql
+tar -czf "$(date +'%d-%m-%Y').tar.gz" backup.sql
