@@ -12,26 +12,39 @@ def recurse(subreddit, hot_list=[], after=None, count=0):
     """
     if count >= 10:
         return hot_list
-    else:
-        params = {}
 
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     if after:
         params = {"after": after}
+    else:
+        params = {}  # Initialize an empty parameter dictionary
+
     response = requests.get(
         url,
         headers={"User-Agent": "custom"},
-        params=params
+        params=params  # Pass the query parameters here
     )
 
     if response.status_code == 200:
-        if not response.json()["data"]["children"]:
+        data = response.json()["data"]
+        children = data["children"]
+
+        if not children:
             return hot_list
 
-        for item in response.json()["data"]["children"]:
+        for item in children:
             hot_list.append(item["data"]["title"])
 
-        after = response.json()["data"]["after"]
+        after = data["after"]
         return recurse(subreddit, hot_list, after, count + 1)
 
-    return None
+    return None  # Return None if the response status code is not 200
+
+# Example usage:
+if __name__ == '__main__':
+    subreddit = "programming"  # Replace with your desired subreddit
+    hot_articles = recurse(subreddit)
+    if hot_articles is not None:
+        print(len(hot_articles))
+    else:
+        print("None")
