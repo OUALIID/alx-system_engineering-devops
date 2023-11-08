@@ -17,6 +17,7 @@ def top_ten(subreddit):
     )
     if response.status_code == 200:
         for item in response.json()["data"]["children"]:
-            print(item["data"]["title"])
+            hiho = item["data"]["title"]
+            print(hiho)
     else:
         print(None)
