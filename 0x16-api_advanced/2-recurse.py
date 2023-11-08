@@ -10,30 +10,23 @@ def recurse(subreddit, hot_list=[], after=None, count=0):
     A recursive function that queries the Reddit API and returns a list
     containing the titles of all hot articles for a given subreddit.
     """
-    if not subreddit or not isinstance(subreddit, str):
+    if not subreddit:
         return None
-    if count >= 10:
-        return hot_list
-    else:
-        params = {}
-
-    url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
-    if after:
-        params = {"after": after}
+    params = {"after": after} if after else {}
     response = requests.get(
-        url,
-        headers={"User-Agent": "custom"},
-        params=params
+        "https://www.reddit.com/r/{}/hot.json".format(subreddit),
+        headers={"User-Agent": "costum"},
+        params=params,
     )
 
     if response.status_code == 200:
-        if not response.json()["data"]["children"]:
-            return hot_list
-
-        for item in response.json()["data"]["children"]:
-            hot_list.append(item["data"]["title"])
-
-        after = response.json()["data"]["after"]
-        return recurse(subreddit, hot_list, after, count + 1)
-
-    return None
+        if response.json()["data"]:
+            data = response.json()["data"]
+            for item in data["children"]:
+                hot_list.append(item["data"]["title"])
+            if data["after"]:
+                return recurse(subreddit, hot_list, after=data["after"])
+            else:
+                return hot_list
+    else:
+        return None
