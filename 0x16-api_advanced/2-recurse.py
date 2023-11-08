@@ -6,11 +6,10 @@ import requests
 
 
 def recurse(subreddit, hot_list=[], after=None, count=0):
-    """A recursive function that queries the Reddit
-    API and returns a list containing the titles of all
-    hot articles for a given subreddit. If no results
-    are found for the given subreddit, the function should
-    return None."""
+    """
+    A recursive function that queries the Reddit
+    API and returns a list containing the titles
+    of all hot articles for a given subreddit."""
     if count >= 10:
         return hot_list
     else:
