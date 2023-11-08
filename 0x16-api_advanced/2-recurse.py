@@ -21,13 +21,13 @@ def recurse(subreddit, hot_list=[], after=None, count=0):
         headers={"User-Agent": "custom"}
     )
 
-    if response.status_code == 404:
-        return None
-
     if response.status_code == 200:
+        if not response.json()["data"]["children"]:
+            return None
+
         for item in response.json()["data"]["children"]:
             hot_list.append(item["data"]["title"])
-    else:
+    if after:
         return recurse(subreddit, hot_list, after, count + 1)
 
     return hot_list
