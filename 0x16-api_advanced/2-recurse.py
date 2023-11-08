@@ -12,23 +12,26 @@ def recurse(subreddit, hot_list=[], after=None, count=0):
     """
     if count >= 10:
         return hot_list
+    else:
+        params = {}
 
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     if after:
-        url += "&after={}".format(after)
+        params = {"after": after}
     response = requests.get(
         url,
-        headers={"User-Agent": "custom"}
+        headers={"User-Agent": "custom"},
+        params=params
     )
 
     if response.status_code == 200:
         if not response.json()["data"]["children"]:
-            return None
+            return hot_list
 
         for item in response.json()["data"]["children"]:
             hot_list.append(item["data"]["title"])
 
-        if after:
-            return recurse(subreddit, hot_list, after, count + 1)
+        after = response.json()["data"]["after"]
+        return recurse(subreddit, hot_list, after, count + 1)
 
-    return hot_list
+    return None
